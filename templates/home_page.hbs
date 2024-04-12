@@ -225,6 +225,30 @@
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
+.container {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    justify-content: space-between; /* Separates left and right columns */
+    width: 100%;
+    max-width: 1200px; /* or your maximum width */
+    margin: auto;
+}
+
+.right-column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-column {
+    flex: 1;
+    padding: 20px; /* Adjust padding as needed */
+}
+.hero-banner {
+    position: relative;
+    z-index: 10; /* Lower than lightbox but higher than regular content */
+}
 
 
  </style> 
