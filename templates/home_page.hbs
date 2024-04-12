@@ -250,13 +250,14 @@
     z-index: 10; /* Lower than lightbox but higher than regular content */
 }
 
+/* Dynamic color settings using Liquid variables */
 .news_title {
-  color: {{settings.brand_color}};
-  margin-bottom: 20px;
+  color: {{settings.brand_color}}; /* Setting title color */
 }
 
-.news_content{
-  color:{{settings.brand_color_slategrey}}
+.news_content {
+  color: {{settings.brand_color_slategrey}}; /* Setting content color, corrected variable name */
+}
 
 
  </style> 
