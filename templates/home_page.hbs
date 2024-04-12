@@ -501,3 +501,17 @@
 
   </div>
 </section>
+		<script>document.getElementById('videoTrigger').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.getElementById('videoLightbox').style.display = 'block';
+    // Set the video URL dynamically
+    document.querySelector('#videoLightbox iframe').src = "{{settings.homepage_video_url}}";
+});
+
+function closeLightbox() {
+    var lightbox = document.getElementById('videoLightbox');
+    lightbox.style.display = 'none';
+    // Clear the iframe src to stop the video playback
+    lightbox.querySelector('iframe').src = '';
+}
+</script>
