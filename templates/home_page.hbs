@@ -292,7 +292,7 @@
     </div>
  
 <!-- Right Column -->
-<div class="w-full lg:w-1/2 flex justify-center lg:justify-end px-4">
+<div class="w-full lg:w-1/3 flex justify-center lg:justify-end px-4">
       <img src="{{settings.hero_banner_image}}" alt="Hero Banner Image" class="max-w-xs lg:max-w-md transform transition duration-300 ease-in-out bg-transparent border px-4 py-4 shadow-sm  hover:animate-pulse">
     </div>
   </div>
@@ -321,16 +321,6 @@
 
 
   {{/if}}
-<!-- Trigger Button -->
-<a href="{{settings.homepage_video_url}}" id="videoTrigger" class="main-btn">Watch Video</a>
-
-<!-- Lightbox Container (Initially Hidden) -->
-<div id="videoLightbox" style="display:none; position:fixed; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.5); z-index:1050;">
-    <div style="position:relative; width:70%; height:70%; top:50%; left:50%; transform:translate(-50%, -50%);">
-        <iframe width="100%" height="100%" src="{{settings.homepage_video_url}}" frameborder="0" allowfullscreen></iframe>
-        <button onclick="closeLightbox()" style="position:absolute; top:10px; right:10px; cursor:pointer;">Close</button>
-    </div>
-</div>
 
 
 
