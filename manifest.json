@@ -1,7 +1,7 @@
 {
   "name": "Anchore Development Theme - v1",
   "author": "Zendesk",
-  "version": "1",
+  "version": "1.0.1",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -156,6 +156,25 @@
           "description": "URL for the header link",
           "label": "HEADER URL",
           "value": "#"
+        }
+      ]
+    },
+    {
+      "label": "News",
+      "variables": [
+        {
+          "identifier": "news_title",
+          "type": "text",
+          "description": "Title for news",
+          "label": "news_title",
+          "value": "News"
+        },
+        {
+          "identifier": "news_content",
+          "type": "text",
+          "description": "news content",
+          "label": "news_content",
+          "value": "News content"
         }
       ]
     },
