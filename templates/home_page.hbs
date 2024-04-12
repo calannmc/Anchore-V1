@@ -319,12 +319,12 @@
 <section>
   {{#if settings.news_title}}
     <div class="bg-white px-6 py-16 lg:px-8">
-      <div class="transform transition duration-300 ease-in-out bg-transparent border border-gray-400 px-4 py-4 shadow-sm hover:bg-white hover:scale-105 hover:shadow-lg hover:border-transparent hover:shadow-outline hover:font-semibold hover:text-black next-card-title rounded-lg">
+      <div class="animate-ping mx-auto max-w-3xl text-center relative border-4 border-{{settings.brand_color_slategrey}} rounded-3xl overflow-hidden shadow-lg">
         <span class="absolute top-0 left-0 transform -translate-x-1/2 -translate-y-1/2 flex h-6 w-6">
           <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-{{settings.brand_color}} opacity-75"></span>
           <span class="relative inline-flex rounded-full h-6 w-6 bg-{{settings.brand_color_slategrey}}"></span>
         </span>
-        <h2 class="section-header animate-bounce text-center mb-4 pt-8">{{settings.news_title}}</h2>
+        <h2 class="section-header text-center mb-4 pt-8">{{settings.news_title}}</h2>
         <div class="mt-8 px-4 py-6">
           <h3 id="news_content ext-lg font-regular text-gray-800 group-hover:text-indigo-600" class="text-{{settings.brand_color_slategrey}}">{{settings.news_content}}</h3>
         </div>
