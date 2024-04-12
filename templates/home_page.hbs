@@ -204,17 +204,25 @@
     width: 100%;
     height: 100%;
 }
-	 #videoLightbox button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    padding: 8px 15px;
-    font-size: 16px;
-    color: white;
-    background: red;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+#videoLightbox {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1050;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#videoLightbox div {
+    width: 70%;
+    height: 70%;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 
@@ -241,15 +249,20 @@
         {{/if}}
         {{#if settings.homepage_video_title}}
         <a href="{{settings.homepage_video_url}}" id="videoTrigger" class="main-btn">Watch Video</a>
-<div id="videoLightbox" style="display:none; position:fixed; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.5); z-index:1050;">
+	 <!-- Lightbox Container (Initially Hidden) -->
+<!-- Lightbox Container (Initially Hidden) -->
+<div id="videoLightbox" style="display:none; position:fixed; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.8); z-index:1050;">
     <div style="position:relative; width:70%; height:70%; top:50%; left:50%; transform:translate(-50%, -50%);">
-        <iframe width="100%" height="100%" src="{{settings.homepage_video_url}}" frameborder="0" allowfullscreen></iframe>
+        <iframe width="100%" height="100%" src="" frameborder="0" allowfullscreen></iframe>
         <button onclick="closeLightbox()" style="position:absolute; top:10px; right:10px; cursor:pointer;">Close</button>
     </div>
 </div>
 
+    </div>
+</div>
+
         {{/if}}
-        <!-- Lightbox Container (Initially Hidden) -->
+
 
       </div>
     </div>
@@ -514,17 +527,28 @@
 
   </div>
 </section>
-		<script>document.getElementById('videoTrigger').addEventListener('click', function(e) {
-    e.preventDefault();
-    document.getElementById('videoLightbox').style.display = 'block';
-    // Set the video URL dynamically
-    document.querySelector('#videoLightbox iframe').src = "{{settings.homepage_video_url}}";
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+    const lightbox = document.getElementById('videoLightbox');
+    const videoContainer = lightbox.querySelector('div');
+    document.getElementById('videoTrigger').addEventListener('click', function(e) {
+        e.preventDefault();
+        lightbox.style.display = 'block';
+        document.querySelector('#videoLightbox iframe').src = "{{settings.homepage_video_url}}";
+    });
+
+    // Close lightbox if clicked outside of videoContainer
+    lightbox.addEventListener('click', function(e) {
+        if (e.target === lightbox) {
+            closeLightbox();
+        }
+    });
+
+    // Add close function
+    function closeLightbox() {
+        lightbox.style.display = 'none';
+        lightbox.querySelector('iframe').src = '';
+    }
 });
 
-function closeLightbox() {
-    var lightbox = document.getElementById('videoLightbox');
-    lightbox.style.display = 'none';
-    // Clear the iframe src to stop the video playback
-    lightbox.querySelector('iframe').src = '';
-}
 </script>
