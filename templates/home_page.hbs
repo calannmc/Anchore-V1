@@ -239,7 +239,10 @@
     <div class="bg-white px-6 py-16 lg:px-8">
   <div class="mx-auto max-w-3xl text-center">
  
-    <h1 class="text-3xl font-bold text-gray-900 sm:text-4xl text-center">{{settings.news_title}}</h1>
+    <span class="relative flex h-3 w-3">
+  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75">{{settings.news_title}}</span>
+  <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+</span>
     <div class="mt-8 relative overflow-hidden shadow-lg rounded-3xl mx-auto">
       <div id="news_content">{{settings.news_content}}</div>
     </div>
