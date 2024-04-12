@@ -1,7 +1,7 @@
 {
   "name": "Anchore Development Theme - v1",
   "author": "Zendesk",
-  "version": "1.2.9",
+  "version": "1.3",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -46,11 +46,11 @@
           "label": "Hero banner Image"
         },
         {
-          "identifier": "homepage_video_title",
+          "identifier": "video_button",
           "type": "text",
           "description": "Title for the homepage video",
-          "label": "Homepage Video Title",
-          "value": "Homepage Video Title"
+          "label": "Video button text",
+          "value": "Watch Now"
         },
         {
           "identifier": "homepage_video_url",
