@@ -573,7 +573,7 @@
     document.getElementById('videoTrigger').addEventListener('click', function(e) {
         e.preventDefault();
         lightbox.style.display = 'block';
-        document.querySelector('#videoLightbox iframe').src = "{{settings.homepage_video_url}}";
+        document.querySelector('#videoLightbox iframe').src = "{{settings.video_tile_url}}";
     });
 
     // Close lightbox if clicked outside of videoContainer
