@@ -1,7 +1,7 @@
 {
   "name": "Anchore Development Theme - v3",
   "author": "Zendesk",
-  "version": "1.4.1",
+  "version": "1.4",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -44,41 +44,6 @@
           "type": "file",
           "description": "Image for the homepage hero banner",
           "label": "Hero banner Image"
-        },
-        {
-          "identifier": "video_button_image",
-          "type": "file",
-          "description": "Image for the video button",
-          "label": "Video Button Image"
-        },
-          {
-          "identifier": "video_button",
-          "type": "text",
-          "description": "Title for the homepage video",
-          "label": "Video button text",
-          "value": "Watch Now"
-        },
-        {
-          "identifier": "video_button_title",
-          "type": "text",
-          "description": "Title for the homepage video",
-          "label": "Video button text",
-          "value": "Watch Now"
-        },
-           {
-          "identifier": "video_button_description",
-          "type": "text",
-          "description": "Title for the homepage video",
-          "label": "Video button text",
-          "value": "Watch Now"
-        },
-        
-        {
-          "identifier": "homepage_video_url",
-          "type": "text",
-          "description": "URL for the homepage video",
-          "label": "Homepage Video URL",
-          "value": "https://player.vimeo.com/video/506724741?h=90455481d9&color=307FE2&title=0&byline=0&portrait=0"
         },
         {
           "identifier": "cta_one_title",
@@ -202,6 +167,35 @@
     {
       "label": "Custom Tiles",
       "variables": [
+        {
+          "identifier": "video_tile_image",
+          "type": "file",
+          "description": "Image for the video button",
+          "label": "Video Button Image"
+        },
+
+        {
+          "identifier": "video_tile_title",
+          "type": "text",
+          "description": "Title for the homepage video",
+          "label": "Video button text",
+          "value": "Watch Now"
+        },
+           {
+          "identifier": "video_tile_description",
+          "type": "text",
+          "description": "Title for the homepage video",
+          "label": "Video button text",
+          "value": "Watch Now"
+        },
+        
+        {
+          "identifier": "video_tile_url",
+          "type": "text",
+          "description": "URL for the homepage video",
+          "label": "Homepage Video URL",
+          "value": "https://player.vimeo.com/video/506724741?h=90455481d9&color=307FE2&title=0&byline=0&portrait=0"
+        },
         {
           "identifier": "tile_1",
           "type": "file",
