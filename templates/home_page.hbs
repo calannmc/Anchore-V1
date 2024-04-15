@@ -159,6 +159,10 @@
   }
 }
 
+.category-cards:hover {
+ background-color:{{settings.brand_color_softwhite}};
+}
+
 .card-link:hover {
   background-color:{{settings.brand_color_softwhite}};
 }
@@ -227,10 +231,10 @@
 
 .container {
     display: flex;
-    align-items: center; /* Aligns items vertically */
-    justify-content: space-between; /* Separates left and right columns */
+    align-items: center; 
+    justify-content: space-between; 
     width: 100%;
-    max-width: 1200px; /* or your maximum width */
+    max-width: 1200px; 
     margin: auto;
 }
 
@@ -243,20 +247,20 @@
 
 .left-column {
     flex: 1;
-    padding: 20px; /* Adjust padding as needed */
+    padding: 20px; 
 }
 .hero-banner {
     position: relative;
-    z-index: 10; /* Lower than lightbox but higher than regular content */
+    z-index: 10; 
 }
 
-/* Dynamic color settings using Liquid variables */
+
 .news_title {
-  color: {{settings.brand_color}}; /* Setting title color */
+  color: {{settings.brand_color}}; 
 }
 
 .news_content {
-  color: {{settings.brand_color_slategrey}}; /* Setting content color, corrected variable name */
+  color: {{settings.brand_color_slategrey}}; 
 }
 
 .flex.justify-center.lg:justify-start.space-x-4.mt-4 {
@@ -296,9 +300,7 @@
         {{#if settings.cta_two_title}}
           <a href="{{settings.cta_two}}" class="main-btn">{{settings.cta_two_title}}</a>
         {{/if}}
-        {{#if settings.video_button}}
-          <a href="{{settings.homepage_video_url}}" id="videoTrigger" class="main-btn">{{settings.video_button}}</a>
-        {{/if}}
+       
       </div>
     </div>
 
@@ -349,6 +351,17 @@
       <div class="p-4">
         <h3 class="text-lg font-semibold text-gray-800 group-hover:text-indigo-600">{{settings.tile_1_title}}</h3>
         <p class="text-base text-sm mt-2">{{settings.tile_1_description}}</p>
+      </div>
+    </a>
+  {{/if}}
+    {{#if settings.video_tile_title}}
+    <a href="{{settings.video_url}}" class="group block overflow-hidden transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+      {{#if settings.tile_1}}
+        <img src="{{settings.video_tile_image}}" alt="" class="w-full h-40 object-contain p-4">
+      {{/if}}
+      <div class="p-4">
+        <h3 class="text-lg font-semibold text-gray-800 group-hover:text-indigo-600">{{settings.video_tile_title}}</h3>
+        <p class="text-base text-sm mt-2">{{settings.video_description}}</p>
       </div>
     </a>
   {{/if}}
