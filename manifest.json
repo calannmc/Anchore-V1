@@ -45,6 +45,13 @@
           "description": "Image for the homepage hero banner",
           "label": "Hero banner Image"
         },
+          {
+          "identifier": "video_button",
+          "type": "text",
+          "description": "Title for the homepage video",
+          "label": "Video button text",
+          "value": "Watch Now"
+        },
         {
           "identifier": "video_button_title",
           "type": "text",
