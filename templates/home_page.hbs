@@ -163,7 +163,7 @@
   background-color:{{settings.brand_color_softwhite}};
 }
 
-.video-box {
+/*.video-box {
   margin: 0 auto; 
   padding: 20px; 
   border: 2px solid {{settings.brand_color_slategrey}}; 
@@ -171,7 +171,7 @@
   border-radius: 16px; 
   box-sizing: border-box;
   background-color: {{settings.brand_color_softwhite}}; 
-}
+}*/
 
 
 /* Ensure the title is visible and styled appropriately */
@@ -296,9 +296,7 @@
         {{#if settings.cta_two_title}}
           <a href="{{settings.cta_two}}" class="main-btn">{{settings.cta_two_title}}</a>
         {{/if}}
-        {{#if settings.video_button}}
-          <a href="{{settings.homepage_video_url}}" id="videoTrigger" class="main-btn">{{settings.video_button}}</a>
-        {{/if}}
+
       </div>
     </div>
 
@@ -308,14 +306,7 @@
     </div>
   </div>
 </div>
-<!-- Lightbox Container (Initially Hidden) -->
-<div id="videoLightbox" style="display:none; position:fixed; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.8); z-index:1050;">
-    <div style="position:relative; width:70%; height:70%; top:50%; left:50%; transform:translate(-50%, -50%);">
-        <iframe width="100%" height="100%" src="" frameborder="0" allowfullscreen></iframe>
-        <button onclick="closeLightbox()" style="position:absolute; top:10px; right:10px; cursor:pointer;">Close</button>
-    </div>
-</div>
- 
+
 <section>
   {{#if settings.news_title}}
     <div class="bg-white px-6 py-16 lg:px-8">
