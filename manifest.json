@@ -63,7 +63,7 @@
           "identifier": "video_tile_image",
           "type": "file",
           "description": "Image for the video tile",
-          "label": "Video tile text"
+          "label": "Tile 1"
        
         },
         
