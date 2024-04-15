@@ -181,14 +181,14 @@
           "label": "Video Tile Title",
           "value": "Watch Now"
         },
-           {
+        {
           "identifier": "video_tile_description",
           "type": "text",
           "description": "Description for the video tile",
           "label": "Video Tile Description",
           "value": "Description"
         },
-        
+
         {
           "identifier": "video_tile_url",
           "type": "text",
