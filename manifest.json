@@ -46,32 +46,17 @@
           "label": "Hero banner Image"
         },
         {
-          "identifier": "video_tile_title",
+          "identifier": "video_button",
           "type": "text",
           "description": "Title for the homepage video",
-          "label": "Video tile text",
+          "label": "Video button text",
           "value": "Watch Now"
         },
         {
-          "identifier": "video_tile_description",
+          "identifier": "homepage_video_url",
           "type": "text",
-          "description": "Description for the video tile",
-          "label": "Video tile text",
-          "value": "Watch Now"
-        },
-        {
-          "identifier": "video_tile_image",
-          "type": "file",
-          "description": "Image for the video tile",
-          "label": "Video tile image"
-       
-        },
-        
-        {
-          "identifier": "video_tile_url",
-          "type": "text",
-          "description": "URL for the tile video",
-          "label": "Homepage Tile URL",
+          "description": "URL for the homepage video",
+          "label": "Homepage Video URL",
           "value": "https://player.vimeo.com/video/506724741?h=90455481d9&color=307FE2&title=0&byline=0&portrait=0"
         },
         {

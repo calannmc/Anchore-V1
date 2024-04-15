@@ -159,10 +159,6 @@
   }
 }
 
-.category-cards:hover {
- background-color:{{settings.brand_color_softwhite}};
-}
-
 .card-link:hover {
   background-color:{{settings.brand_color_softwhite}};
 }
@@ -231,10 +227,10 @@
 
 .container {
     display: flex;
-    align-items: center; 
-    justify-content: space-between; 
+    align-items: center; /* Aligns items vertically */
+    justify-content: space-between; /* Separates left and right columns */
     width: 100%;
-    max-width: 1200px; 
+    max-width: 1200px; /* or your maximum width */
     margin: auto;
 }
 
@@ -247,20 +243,20 @@
 
 .left-column {
     flex: 1;
-    padding: 20px; 
+    padding: 20px; /* Adjust padding as needed */
 }
 .hero-banner {
     position: relative;
-    z-index: 10; 
+    z-index: 10; /* Lower than lightbox but higher than regular content */
 }
 
-
+/* Dynamic color settings using Liquid variables */
 .news_title {
-  color: {{settings.brand_color}}; 
+  color: {{settings.brand_color}}; /* Setting title color */
 }
 
 .news_content {
-  color: {{settings.brand_color_slategrey}}; 
+  color: {{settings.brand_color_slategrey}}; /* Setting content color, corrected variable name */
 }
 
 .flex.justify-center.lg:justify-start.space-x-4.mt-4 {
@@ -300,7 +296,9 @@
         {{#if settings.cta_two_title}}
           <a href="{{settings.cta_two}}" class="main-btn">{{settings.cta_two_title}}</a>
         {{/if}}
-       
+        {{#if settings.video_button}}
+          <a href="{{settings.homepage_video_url}}" id="videoTrigger" class="main-btn">{{settings.video_button}}</a>
+        {{/if}}
       </div>
     </div>
 
@@ -310,7 +308,13 @@
     </div>
   </div>
 </div>
-
+<!-- Lightbox Container (Initially Hidden) -->
+<div id="videoLightbox" style="display:none; position:fixed; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.8); z-index:1050;">
+    <div style="position:relative; width:70%; height:70%; top:50%; left:50%; transform:translate(-50%, -50%);">
+        <iframe width="100%" height="100%" src="" frameborder="0" allowfullscreen></iframe>
+        <button onclick="closeLightbox()" style="position:absolute; top:10px; right:10px; cursor:pointer;">Close</button>
+    </div>
+</div>
  
 <section>
   {{#if settings.news_title}}
@@ -336,24 +340,6 @@
   <div class="container mx-auto text-center category-cards py-8 px-3 sm:py-10">
    
     <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-8 px-5">
-    {{#if settings.video_tile_title}}
-    <a href="{{settings.video_tile_url}}" class="videoTrigger group block overflow-hidden transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
-      {{#if settings.video_tile_image}}
-        <img src="{{settings.video_tile_image}}" alt="" class="w-full h-40 object-contain p-4">
-      {{/if}}
-      <div class="p-4">
-        <h3 class="text-lg font-semibold text-gray-800 group-hover:text-indigo-600">{{settings.video_tile_title}}</h3>
-        <p class="text-base text-sm mt-2">{{settings.video_tile_description}}</p>
-      </div>
-    </a>
-  {{/if}}
-  <!-- Lightbox Container (Initially Hidden) -->
-<div id="videoLightbox" style="display:none; position:fixed; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.8); z-index:1050;">
-    <div style="position:relative; width:70%; height:70%; top:50%; left:50%; transform:translate(-50%, -50%);">
-        <iframe width="100%" height="100%" src="" frameborder="0" allowfullscreen></iframe>
-        <button onclick="closeLightbox()" style="position:absolute; top:10px; right:10px; cursor:pointer;">Close</button>
-    </div>
-</div>
 
      {{#if settings.tile_1_title}}
     <a href="{{settings.tile_1_url}}" class="group block overflow-hidden transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
@@ -366,7 +352,8 @@
       </div>
     </a>
   {{/if}}
- {{#if settings.tile_2_title}}
+
+  {{#if settings.tile_2_title}}
     <a href="{{settings.tile_2_url}}" class="group block overflow-hidden transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
       {{#if settings.tile_2}}
         <img src="{{settings.tile_2}}" alt="" class="w-full h-40 object-contain p-4">
@@ -566,16 +553,14 @@
 
   </div>
 </section>
-
-document.addEventListener('DOMContentLoaded', function() {
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
     const lightbox = document.getElementById('videoLightbox');
-    const videoTileLink = document.querySelector('.video-box a');
-
-    videoTileLink.addEventListener('click', function(e) {
+    const videoContainer = lightbox.querySelector('div');
+    document.getElementById('videoTrigger').addEventListener('click', function(e) {
         e.preventDefault();
-        lightbox.style.display = 'flex'; // Show the lightbox
-        const videoUrl = this.getAttribute('href');
-        document.querySelector('#videoLightbox iframe').src = videoUrl;
+        lightbox.style.display = 'block';
+        document.querySelector('#videoLightbox iframe').src = "{{settings.homepage_video_url}}";
     });
 
     // Close lightbox if clicked outside of videoContainer
@@ -587,8 +572,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Add close function
     function closeLightbox() {
-        lightbox.style.display = 'none'; // Hide the lightbox
-        lightbox.querySelector('iframe').src = ''; // Clear the src attribute
+        lightbox.style.display = 'none';
+        lightbox.querySelector('iframe').src = '';
     }
 });
 
