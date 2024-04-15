@@ -281,7 +281,7 @@
 <div class="anchore-bg p-6 md:p-12" style="border-bottom-right-radius: 100px;">
   <div class="container mx-auto flex flex-wrap items-center px-0">
     <!-- Left Column -->
-    <div class="w-full lg:w-1/2 text-center lg:text-left px-2 mx:px-4">
+    <div class="w-full lg:w-3/4 text-center lg:text-left px-2 mx:px-4">
       <h1 class="my-5 md:mb-4 anchore-hero-header">{{settings.hero_banner_text}}</h1>
       <h3 class="mb-4 text-center md:text-left text-white">{{settings.hero_banner_description}}</h3>
       <div class="max-w-md mx-auto lg:mx-0">
@@ -303,7 +303,7 @@
     </div>
 
     <!-- Right Column -->
-    <div class="w-full lg:w-1/3 flex justify-center lg:justify-end px-4">
+    <div class="w-full lg:w-1/4 flex justify-center lg:justify-end px-4">
       <img src="{{settings.hero_banner_image}}" alt="Hero Banner Image" class="max-w-xs lg:max-w-md transform transition duration-300 ease-in-out bg-transparent border px-4 py-4 shadow-sm hover:animate-pulse">
     </div>
   </div>
@@ -319,14 +319,14 @@
 <section>
   {{#if settings.news_title}}
     <div class="bg-white px-6 py-16 lg:px-8">
-      <div class=" mx-auto max-w-3xl text-center relative border-4 border-{{settings.brand_color_slategrey}} rounded-3xl shadow-lg">
-        <span class="absolute top-0 left-0 transform -translate-x-1/2 -translate-y-1/2 flex h-6 w-6 z-10">
-          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+      <div class="mx-auto max-w-3xl text-center relative border-4 border-{{settings.brand_color_slategrey}} rounded-3xl overflow-hidden shadow-lg">
+        <span class="absolute top-0 left-0 transform -translate-x-1/2 -translate-y-1/2 flex h-6 w-6">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-{{settings.brand_color}} opacity-75"></span>
           <span class="relative inline-flex rounded-full h-6 w-6 bg-{{settings.brand_color_slategrey}}"></span>
         </span>
         <h2 class="section-header text-center mb-4 pt-8">{{settings.news_title}}</h2>
         <div class="mt-8 px-4 py-6">
-          <h3 id="news_content text-lg font-regular text-gray-800 group-hover:text-indigo-600" class="text-{{settings.brand_color_slategrey}}">{{settings.news_content}}</h3>
+          <h3 id="news_content ext-lg font-regular text-gray-800 group-hover:text-indigo-600" class="text-{{settings.brand_color_slategrey}}">{{settings.news_content}}</h3>
         </div>
       </div>
     </div>
@@ -342,9 +342,9 @@
     <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-8 px-5">
 
      {{#if settings.tile_1_title}}
-    <a href="{{settings.tile_1_url}}" class="group block bg-white rounded-lg overflow-hidden shadow transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+    <a href="{{settings.tile_1_url}}" class="group block overflow-hidden transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
       {{#if settings.tile_1}}
-        <img src="{{settings.tile_1}}" alt="" class="w-full h-40 object-cover">
+        <img src="{{settings.tile_1}}" alt="" class="w-full h-40 object-contain p-4">
       {{/if}}
       <div class="p-4">
         <h3 class="text-lg font-semibold text-gray-800 group-hover:text-indigo-600">{{settings.tile_1_title}}</h3>
@@ -354,9 +354,9 @@
   {{/if}}
 
   {{#if settings.tile_2_title}}
-    <a href="{{settings.tile_2_url}}" class="group block bg-white rounded-lg overflow-hidden shadow transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+    <a href="{{settings.tile_2_url}}" class="group block overflow-hidden transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
       {{#if settings.tile_2}}
-        <img src="{{settings.tile_2}}" alt="" class="w-full h-40 object-cover">
+        <img src="{{settings.tile_2}}" alt="" class="w-full h-40 object-contain p-4">
       {{/if}}
       <div class="p-4">
         <h3 class="text-lg font-semibold text-gray-800 group-hover:text-indigo-600">{{settings.tile_2_title}}</h3>
@@ -366,9 +366,9 @@
   {{/if}}
 
   {{#if settings.tile_3_title}}
-    <a href="{{settings.tile_3_url}}" class="group block bg-white rounded-lg overflow-hidden shadow transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+    <a href="{{settings.tile_3_url}}" class="group block overflow-hidden transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
       {{#if settings.tile_3}}
-        <img src="{{settings.tile_3}}" alt="" class="w-full h-40 object-cover">
+        <img src="{{settings.tile_3}}" alt="" class="w-full h-40 object-contain p-4">
       {{/if}}
       <div class="p-4">
         <h3 class="text-lg font-semibold text-gray-800 group-hover:text-indigo-600">{{settings.tile_3_title}}</h3>
@@ -378,9 +378,9 @@
   {{/if}}
 
   {{#if settings.tile_4_title}}
-    <a href="{{settings.tile_4_url}}" class="group block bg-white rounded-lg overflow-hidden shadow transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+    <a href="{{settings.tile_4_url}}" class="group block overflow-hidden transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
       {{#if settings.tile_4}}
-        <img src="{{settings.tile_4}}" alt="" class="w-full h-40 object-cover">
+        <img src="{{settings.tile_4}}" alt="" class="w-full h-40 object-contain p-4">
       {{/if}}
       <div class="p-4">
         <h3 class="text-lg font-semibold text-gray-800 group-hover:text-indigo-600">{{settings.tile_4_title}}</h3>
@@ -390,9 +390,9 @@
   {{/if}}
 
   {{#if settings.tile_5_title}}
-    <a href="{{settings.tile_5_url}}" class="group block bg-white rounded-lg overflow-hidden shadow transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+    <a href="{{settings.tile_5_url}}" class="group block overflow-hidden transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
       {{#if settings.tile_5}}
-        <img src="{{settings.tile_5}}" alt="" class="w-full h-40 object-cover">
+        <img src="{{settings.tile_5}}" alt="" class="w-full h-40 object-contain p-4">
       {{/if}}
       <div class="p-4">
         <h3 class="text-lg font-semibold text-gray-800 group-hover:text-indigo-600">{{settings.tile_5_title}}</h3>
@@ -402,9 +402,9 @@
   {{/if}}
 
   {{#if settings.tile_6_title}}
-    <a href="{{settings.tile_6_url}}" class="group block bg-white rounded-lg overflow-hidden shadow transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+    <a href="{{settings.tile_6_url}}" class="group block overflow-hidden transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
       {{#if settings.tile_6}}
-        <img src="{{settings.tile_6}}" alt="" class="w-full h-40 object-cover">
+        <img src="{{settings.tile_6}}" alt="" class="w-full h-40 object-contain p-4">
       {{/if}}
       <div class="p-4">
         <h3 class="text-lg font-semibold text-gray-800 group-hover:text-indigo-600">{{settings.tile_6_title}}</h3>
@@ -414,9 +414,9 @@
   {{/if}}
 
   {{#if settings.tile_7_title}}
-    <a href="{{settings.tile_7_url}}" class="group block bg-white rounded-lg overflow-hidden shadow transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+    <a href="{{settings.tile_7_url}}" class="group block overflow-hidden transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
       {{#if settings.tile_7}}
-        <img src="{{settings.tile_7}}" alt="" class="w-full h-40 object-cover">
+        <img src="{{settings.tile_7}}" alt="" class="w-full h-40 object-contain p-4">
       {{/if}}
       <div class="p-4">
         <h3 class="text-lg font-semibold text-gray-800 group-hover:text-indigo-600">{{settings.tile_7_title}}</h3>
@@ -426,9 +426,9 @@
   {{/if}}
 
   {{#if settings.tile_8_title}}
-    <a href="{{settings.tile_8_url}}" class="group block bg-white rounded-lg overflow-hidden shadow transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+    <a href="{{settings.tile_8_url}}" class="group block overflow-hidden transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
       {{#if settings.tile_8}}
-        <img src="{{settings.tile_8}}" alt="" class="w-full h-40 object-cover">
+        <img src="{{settings.tile_8}}" alt="" class="w-full h-40 object-contain p-4">
       {{/if}}
       <div class="p-4">
         <h3 class="text-lg font-semibold text-gray-800 group-hover:text-indigo-600">{{settings.tile_8_title}}</h3>
@@ -438,9 +438,9 @@
   {{/if}}
 
   {{#if settings.tile_9_title}}
-    <a href="{{settings.tile_9_url}}" class="group block bg-white rounded-lg overflow-hidden shadow transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+    <a href="{{settings.tile_9_url}}" class="group block overflow-hidden transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
       {{#if settings.tile_9}}
-        <img src="{{settings.tile_9}}" alt="" class="w-full h-40 object-cover">
+        <img src="{{settings.tile_9}}" alt="" class="w-full h-40 object-contain p-4">
       {{/if}}
       <div class="p-4">
         <h3 class="text-lg font-semibold text-gray-800 group-hover:text-indigo-600">{{settings.tile_9_title}}</h3>
@@ -450,9 +450,9 @@
   {{/if}}
 
   {{#if settings.tile_10_title}}
-    <a href="{{settings.tile_10_url}}" class="group block bg-white rounded-lg overflow-hidden shadow transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+    <a href="{{settings.tile_10_url}}" class="group block overflow-hidden transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
       {{#if settings.tile_10}}
-        <img src="{{settings.tile_10}}" alt="" class="w-full h-40 object-cover">
+        <img src="{{settings.tile_10}}" alt="" class="w-full h-40 object-contain p-4">
       {{/if}}
       <div class="p-4">
         <h3 class="text-lg font-semibold text-gray-800 group-hover:text-indigo-600">{{settings.tile_10_title}}</h3>
@@ -462,9 +462,9 @@
   {{/if}}
 
   {{#if settings.tile_11_title}}
-    <a href="{{settings.tile_11_url}}" class="group block bg-white rounded-lg overflow-hidden shadow transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+    <a href="{{settings.tile_11_url}}" class="group block overflow-hidden transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
       {{#if settings.tile_11}}
-        <img src="{{settings.tile_11}}" alt="" class="w-full h-40 object-cover">
+        <img src="{{settings.tile_11}}" alt="" class="w-full h-40 object-contain p-4">
       {{/if}}
       <div class="p-4">
         <h3 class="text-lg font-semibold text-gray-800 group-hover:text-indigo-600">{{settings.tile_11_title}}</h3>
@@ -474,9 +474,9 @@
   {{/if}}
 
   {{#if settings.tile_12_title}}
-    <a href="{{settings.tile_12_url}}" class="group block bg-white rounded-lg overflow-hidden shadow transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+    <a href="{{settings.tile_12_url}}" class="group block overflow-hidden transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
       {{#if settings.tile_12}}
-        <img src="{{settings.tile_12}}" alt="" class="w-full h-40 object-cover">
+        <img src="{{settings.tile_12}}" alt="" class="w-full h-40 object-contain p-4">
       {{/if}}
       <div class="p-4">
         <h3 class="text-lg font-semibold text-gray-800 group-hover:text-indigo-600">{{settings.tile_12_title}}</h3>
