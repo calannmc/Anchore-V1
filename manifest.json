@@ -1,7 +1,7 @@
 {
   "name": "Anchore Development Theme - v3",
   "author": "Zendesk",
-  "version": "1.4",
+  "version": "1.4.1",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -170,7 +170,7 @@
         {
           "identifier": "video_tile_image",
           "type": "file",
-          "description": "Image for the video button",
+          "description": "Video Tile Image",
           "label": "Video Button Image"
         },
 
@@ -178,22 +178,22 @@
           "identifier": "video_tile_title",
           "type": "text",
           "description": "Title for the homepage video",
-          "label": "Video button text",
+          "label": "Video Tile Title",
           "value": "Watch Now"
         },
            {
           "identifier": "video_tile_description",
           "type": "text",
-          "description": "Title for the homepage video",
-          "label": "Video button text",
-          "value": "Watch Now"
+          "description": "Description for the video tile",
+          "label": "Video tile description",
+          "value": "Description"
         },
         
         {
           "identifier": "video_tile_url",
           "type": "text",
           "description": "URL for the homepage video",
-          "label": "Homepage Video URL",
+          "label": "Video Tile URL",
           "value": "https://player.vimeo.com/video/506724741?h=90455481d9&color=307FE2&title=0&byline=0&portrait=0"
         },
         {
