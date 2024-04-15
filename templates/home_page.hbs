@@ -343,6 +343,9 @@
  {{#if settings.video_button_title}}
     <a href="#" id="videoTile" class="group block overflow-hidden transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
       <div class="video-box">
+        {{#if settings.video_button_image}}
+          <img src="{{settings.video_button_image}}" alt="" class="w-full h-40 object-contain p-4">
+        {{/if}}
         <div class="p-4">
           <h3 class="text-lg font-semibold text-gray-800 group-hover:text-indigo-600">{{settings.video_button_title}}</h3>
           <p class="text-base text-sm mt-2">{{settings.video_button_description}}</p>
