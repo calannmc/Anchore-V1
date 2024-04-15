@@ -331,19 +331,18 @@
   <div class="container mx-auto text-center category-cards py-8 px-3 sm:py-10">
    
     <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-8 px-5">
- {{#if settings.video_button_title}}
-    <a href="#" id="videoTile" class="group block overflow-hidden transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
-      <div class="video-box">
-        {{#if settings.video_button_image}}
-          <img src="{{settings.video_button_image}}" alt="" class="w-full h-40 object-contain p-4">
-        {{/if}}
-        <div class="p-4">
-          <h3 class="text-lg font-semibold text-gray-800 group-hover:text-indigo-600">{{settings.video_button_title}}</h3>
-          <p class="text-base text-sm mt-2">{{settings.video_button_description}}</p>
-        </div>
+{{#if settings.video_tile_title}}
+    <a href="{{settings.video_tile_url}}" id="videoTileTrigger" class="group block overflow-hidden transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+      {{#if settings.video_tile_image}}
+        <img src="{{settings.video_tile_image}}" alt="" class="w-full h-40 object-contain p-4">
+      {{/if}}
+      <div class="p-4">
+        <h3 class="text-lg font-semibold text-gray-800 group-hover:text-indigo-600">{{settings.video_tile_title}}</h3>
+        <p class="text-base text-sm mt-2">{{settings.video_tile_description}}</p>
       </div>
     </a>
-{{/if}}
+  {{/if}}
+
 
      {{#if settings.tile_1_title}}
     <a href="{{settings.tile_1_url}}" class="group block overflow-hidden transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
@@ -558,13 +557,13 @@
   </div>
 </section>
 		<script>
-			document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
     const lightbox = document.getElementById('videoLightbox');
     const videoContainer = lightbox.querySelector('div');
-    document.getElementById('videoTrigger').addEventListener('click', function(e) {
+    document.getElementById('videoTileTrigger').addEventListener('click', function(e) {
         e.preventDefault();
         lightbox.style.display = 'block';
-        document.querySelector('#videoLightbox iframe').src = "{{settings.homepage_video_url}}";
+        document.querySelector('#videoLightbox iframe').src = "{{settings.video_tile_url}}";
     });
 
     // Close lightbox if clicked outside of videoContainer
@@ -578,31 +577,6 @@
     function closeLightbox() {
         lightbox.style.display = 'none';
         lightbox.querySelector('iframe').src = '';
-    }
-});
-
-			document.addEventListener('DOMContentLoaded', function() {
-    const lightbox = document.getElementById('videoLightbox');
-    const videoTile = document.getElementById('videoTile');
-
-    videoTile.addEventListener('click', function(e) {
-        e.preventDefault();
-        lightbox.style.display = 'flex'; // Show the lightbox
-        const videoUrl = "{{settings.homepage_video_url}}"; // Use the video URL from settings
-        document.querySelector('#videoLightbox iframe').src = videoUrl;
-    });
-
-    // Close lightbox if clicked outside of videoContainer
-    lightbox.addEventListener('click', function(e) {
-        if (e.target === lightbox) {
-            closeLightbox();
-        }
-    });
-
-    // Add close function
-    function closeLightbox() {
-        lightbox.style.display = 'none'; // Hide the lightbox
-        lightbox.querySelector('iframe').src = ''; // Clear the src attribute
     }
 });
 
