@@ -591,3 +591,31 @@
 });
 
 </script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const lightbox = document.getElementById('videoLightbox');
+    const videoLinks = document.querySelectorAll('.video-box a');
+
+    videoLinks.forEach(function(videoLink) {
+        videoLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            lightbox.style.display = 'flex'; // Show the lightbox
+            const videoUrl = this.getAttribute('href');
+            document.querySelector('#videoLightbox iframe').src = videoUrl;
+        });
+    });
+
+    // Close lightbox if clicked outside of videoContainer
+    lightbox.addEventListener('click', function(e) {
+        if (e.target === lightbox) {
+            closeLightbox();
+        }
+    });
+
+    // Add close function
+    function closeLightbox() {
+        lightbox.style.display = 'none'; // Hide the lightbox
+        lightbox.querySelector('iframe').src = ''; // Clear the src attribute
+    }
+});
+</script>
