@@ -78,14 +78,14 @@
           "type": "text",
           "description": "Title for header link",
           "label": "Header Title",
-          "value": ""
+          "value": "Header 3"
         },
         {
           "identifier": "header_one",
           "type": "text",
           "description": "URL for the header link",
           "label": "HEADER URL",
-          "value": ""
+          "value": "#"
         },
         {
           "identifier": "header_two_title",
@@ -106,7 +106,7 @@
           "type": "text",
           "description": "Title for header link",
           "label": "Header Title",
-          "value": "Header 3"
+          "value": ""
         },
         {
           "identifier": "header_three",
@@ -173,7 +173,6 @@
           "description": "Image for the video tile",
           "label": "Video Tile Image"
         },
-
         {
           "identifier": "video_tile_title",
           "type": "text",
@@ -188,7 +187,6 @@
           "label": "Video Tile Description",
           "value": "Description"
         },
-
         {
           "identifier": "video_tile_url",
           "type": "text",
@@ -369,7 +367,7 @@
           "type": "text",
           "description": "Title for the seventh tile",
           "label": "Tile 7 Title",
-          "value": ""
+          "value": "Tile 7"
         },
         {
           "identifier": "tile_7_description",
