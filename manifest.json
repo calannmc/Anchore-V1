@@ -1,7 +1,7 @@
 {
   "name": "Anchore Development Theme - v3",
   "author": "Zendesk",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -679,58 +679,7 @@
           "label": "Category 12 name",
           "value": "222XR"
         },
-        {
-          "identifier": "category_card_icon_13",
-          "type": "file",
-          "description": "Icon for the 13 category card",
-          "label": "Card_Icon_13"
-        },
-        {
-          "identifier": "category_card_13_name",
-          "type": "text",
-          "description": "Name for category 13",
-          "label": "Category 13 name",
-          "value": "222"
-        },
-        {
-          "identifier": "category_card_icon_14",
-          "type": "file",
-          "description": "Icon for the 14 category card",
-          "label": "Card_Icon_14"
-        },
-        {
-          "identifier": "category_card_14_name",
-          "type": "text",
-          "description": "Name for category 14",
-          "label": "Category 14 name",
-          "value": "122HD"
-        },
-        {
-          "identifier": "category_card_icon_15",
-          "type": "file",
-          "description": "Icon for the 15 category card",
-          "label": "Card_Icon_15"
-        },
-        {
-          "identifier": "category_card_15_name",
-          "type": "text",
-          "description": "Name for category 15",
-          "label": "Category 15 name",
-          "value": "122"
-        },
-        {
-          "identifier": "category_card_icon_16",
-          "type": "file",
-          "description": "Icon for the 16 category card",
-          "label": "Card_Icon_16"
-        },
-        {
-          "identifier": "category_card_16_name",
-          "type": "text",
-          "description": "Name for category 16",
-          "label": "Category 16 name",
-          "value": "Product not listed"
-        },
+
         {
           "identifier": "popular_articles_text",
           "type": "text",
@@ -861,122 +810,10 @@
           "type": "file",
           "description": "Icon for the active card",
           "label": "Card_Icon_1"
-        },
-        {
-          "identifier": "section_card_icon_7",
-          "type": "file",
-          "description": "Icon for the seventh section card",
-          "label": "Card_Icon_7"
-        },
-        {
-          "identifier": "section_card_icon_7_active",
-          "type": "file",
-          "description": "Icon for the active card",
-          "label": "Card_Icon_1"
-        },
-        {
-          "identifier": "section_card_icon_8",
-          "type": "file",
-          "description": "Icon for the eighth section card",
-          "label": "Card_Icon_8"
-        },
-        {
-          "identifier": "section_card_icon_8_active",
-          "type": "file",
-          "description": "Icon for the active card",
-          "label": "Card_Icon_1"
-        },
-        {
-          "identifier": "section_card_icon_9",
-          "type": "file",
-          "description": "Icon for the nineth section card",
-          "label": "Card_Icon_9"
-        },
-        {
-          "identifier": "section_card_icon_9_active",
-          "type": "file",
-          "description": "Icon for the active card",
-          "label": "Card_Icon_1"
-        },
-        {
-          "identifier": "section_card_icon_10",
-          "type": "file",
-          "description": "Icon for the tenth section card",
-          "label": "Card_Icon_10"
-        },
-        {
-          "identifier": "section_card_icon_10_active",
-          "type": "file",
-          "description": "Icon for the active card",
-          "label": "Card_Icon_1"
-        },
-        {
-          "identifier": "section_card_icon_11",
-          "type": "file",
-          "description": "Icon for the eleventh section card",
-          "label": "Card_Icon_11"
-        },
-        {
-          "identifier": "section_card_icon_11_active",
-          "type": "file",
-          "description": "Icon for the active card",
-          "label": "Card_Icon_1"
-        },
-        {
-          "identifier": "section_card_icon_12",
-          "type": "file",
-          "description": "Icon for the twelfth section card",
-          "label": "Card_Icon_12"
-        },
-        {
-          "identifier": "section_card_icon_12_active",
-          "type": "file",
-          "description": "Icon for the active card",
-          "label": "Card_Icon_1"
         }
       ]
     },
-    {
-      "label": "Anchore - SubSection",
-      "variables": [
-        {
-          "identifier": "subsection_card_icon_1",
-          "type": "file",
-          "description": "Icon for the first subsection card",
-          "label": "Card_Icon_1"
-        },
-        {
-          "identifier": "subsection_card_icon_2",
-          "type": "file",
-          "description": "Icon for the second subsection card",
-          "label": "Card_Icon_2"
-        },
-        {
-          "identifier": "subsection_card_icon_3",
-          "type": "file",
-          "description": "Icon for the third subsection card",
-          "label": "Card_Icon_3"
-        },
-        {
-          "identifier": "subsection_card_icon_4",
-          "type": "file",
-          "description": "Icon for the forth subsection card",
-          "label": "Card_Icon_4"
-        },
-        {
-          "identifier": "subsection_card_icon_5",
-          "type": "file",
-          "description": "Icon for the fifth subsection card",
-          "label": "Card_Icon_5"
-        },
-        {
-          "identifier": "subsection_card_icon_6",
-          "type": "file",
-          "description": "Icon for the sixth subsection card",
-          "label": "Card_Icon_6"
-        }
-      ]
-    },
+
     {
       "label": "Anchore - Footer",
       "variables": [
@@ -1398,29 +1235,6 @@
           "type": "file",
           "description": "favicon_description",
           "label": "favicon_label"
-        }
-      ]
-    },
-    {
-      "label": "images_group_label",
-      "variables": [
-        {
-          "identifier": "homepage_background_image",
-          "type": "file",
-          "description": "homepage_background_image_description",
-          "label": "homepage_background_image_label"
-        },
-        {
-          "identifier": "community_background_image",
-          "type": "file",
-          "description": "community_background_image_description",
-          "label": "community_background_image_label"
-        },
-        {
-          "identifier": "community_image",
-          "type": "file",
-          "description": "community_image_description",
-          "label": "community_image_label"
         }
       ]
     },
