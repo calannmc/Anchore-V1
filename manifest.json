@@ -524,12 +524,7 @@
     {
       "label": "Custom Tiles",
       "variables": [
-        {
-          "identifier": "video_tile_image",
-          "type": "file",
-          "description": "Image for the video tile",
-          "label": "Video Tile Image"
-        },
+
         {
           "identifier": "video_tile_title",
           "type": "text",
