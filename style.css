@@ -6,10 +6,16 @@
   font-family: Poppins, sans-serif;
   font-size: 14px;
   color: #0d40b4;
-
-
-
 }
+
+.legal-wrapper a, .social-icons a {
+  padding: 0 10px;
+}
+
+.icon {
+  height: 20px; /* Adjust size as needed */
+}
+
 
 
 .breadcrumbs li a {
