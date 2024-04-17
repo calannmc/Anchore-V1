@@ -14,12 +14,12 @@
 .social-icons a{
   padding:0 12px;
   font-size:24px;
-  color:#f2f5f8;
+ 
 
 }
 
 .social-icons a:hover{
-  color:{{settings.brand_color_slategrey}};
+  color:#f2f5f8;
 }
 
 .breadcrumbs li a {
