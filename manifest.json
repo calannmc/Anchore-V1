@@ -1,7 +1,7 @@
 {
   "name": "Anchore Development Theme - v3",
   "author": "Zendesk",
-  "version": "1.5",
+  "version": "1.5.1",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -171,17 +171,24 @@
       "label": "Footer",
       "variables": [
         {
+          "identifier": "Footer_Column_1",
+          "type": "text",
+          "description": "Title for footer column one",
+          "label": "Footer Column 1",
+          "value": "Resources"
+        },
+        {
           "identifier": "footer_one_title",
           "type": "text",
           "description": "Title for footer link",
-          "label": "F1 Title",
+          "label": "Footer 1 Title",
           "value": "Docs"
         },
         {
           "identifier": "footer_one",
           "type": "text",
           "description": "URL for the F1",
-          "label": "f1 URL",
+          "label": "Footer 1 URL",
           "value": "https://docs.anchore.com/"
         }
       ]
