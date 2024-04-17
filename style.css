@@ -18,6 +18,10 @@
 
 }
 
+.social-icons a:hover{
+  color:{{settings.brand_color_slategrey}};
+}
+
 .breadcrumbs li a {
   	transition: all .3s;
     text-decoration: none;
