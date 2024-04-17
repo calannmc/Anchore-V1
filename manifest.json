@@ -171,7 +171,7 @@
       "label": "Footer",
       "variables": [
         {
-          "identifier": "Footer_Column_1",
+          "identifier": "footer_column_1",
           "type": "text",
           "description": "Title for footer column one",
           "label": "Footer Column 1",
