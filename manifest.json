@@ -860,10 +860,10 @@
           "value": "Open Source"
         },
         {
-          "identifier": "footer_5_url",
+          "identifier": "footer_3_url",
           "type": "text",
-          "description": "URL for footer 4",
-          "label": "Footer 4 URL",
+          "description": "URL for footer 3",
+          "label": "Footer 3 URL",
           "value": "https://www.zendesk.com"
         },
         {
