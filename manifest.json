@@ -1,7 +1,7 @@
 {
   "name": "Anchore Development Theme - v3",
   "author": "Zendesk",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -956,25 +956,8 @@
             "type": "file",
             "description": "Icon for the third subsection card",
             "label": "Card_Icon_3"
-          },
-          {
-            "identifier": "subsection_card_icon_4",
-            "type": "file",
-            "description": "Icon for the forth subsection card",
-            "label": "Card_Icon_4"
-          },
-          {
-            "identifier": "subsection_card_icon_5",
-            "type": "file",
-            "description": "Icon for the fifth subsection card",
-            "label": "Card_Icon_5"
-          },
-          {
-            "identifier": "subsection_card_icon_6",
-            "type": "file",
-            "description": "Icon for the sixth subsection card",
-            "label": "Card_Icon_6"
           }
+
         ]
       },
     {
@@ -1104,63 +1087,8 @@
             {
               "label": "Poppins",
               "value": "'Poppins', sans-serif"
-            },
-            {
-              "label": "Arial",
-              "value": "Arial, 'Helvetica Neue', Helvetica, sans-serif"
-            },
-            {
-              "label": "Arial Black",
-              "value": "'Arial Black', Arial, 'Helvetica Neue', Helvetica, sans-serif"
-            },
-            {
-              "label": "Baskerville",
-              "value": "Baskerville, 'Times New Roman', Times, serif"
-            },
-            {
-              "label": "Century Gothic",
-              "value": "'Century Gothic', sans-serif"
-            },
-            {
-              "label": "Copperplate Light",
-              "value": "'Copperplate Light', 'Copperplate Gothic Light', serif"
-            },
-            {
-              "label": "Courier New",
-              "value": "'Courier New', Courier, monospace"
-            },
-            {
-              "label": "Futura",
-              "value": "Futura, 'Century Gothic', sans-serif"
-            },
-            {
-              "label": "Garamond",
-              "value": "Garamond, 'Hoefler Text', 'Times New Roman', Times, serif"
-            },
-            {
-              "label": "Geneva",
-              "value": "Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif"
-            },
-            {
-              "label": "Georgia",
-              "value": "Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif"
-            },
-            {
-              "label": "Helvetica",
-              "value": "Helvetica, Arial, sans-serif"
-            },
-            {
-              "label": "Helvetica Neue",
-              "value": "'Helvetica Neue', Arial, Helvetica, sans-serif"
-            },
-            {
-              "label": "Lucida Grande",
-              "value": "'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif"
-            },
-            {
-              "label": "Trebuchet MS",
-              "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"
             }
+           
           ]
         },
         {
@@ -1177,67 +1105,8 @@
             {
               "label": "Poppins",
               "value": "'Poppins', sans-serif"
-            },
-            {
-              "label": "Arial",
-              "value": "Arial, 'Helvetica Neue', Helvetica, sans-serif"
-            },
-            {
-              "label": "Arial Black",
-              "value": "'Arial Black', Arial, 'Helvetica Neue', Helvetica, sans-serif"
-            },
-            {
-              "label": "Baskerville",
-              "value": "Baskerville, 'Times New Roman', Times, serif"
-            },
-            {
-              "label": "Century Gothic",
-              "value": "'Century Gothic', sans-serif"
-            },
-            {
-              "label": "Copperplate Light",
-              "value": "'Copperplate Light', 'Copperplate Gothic Light', serif"
-            },
-            {
-              "label": "Courier New",
-              "value": "'Courier New', Courier, monospace"
-            },
-            {
-              "label": "Futura",
-              "value": "Futura, 'Century Gothic', sans-serif"
-            },
-            {
-              "label": "Garamond",
-              "value": "Garamond, 'Hoefler Text', 'Times New Roman', Times, serif"
-            },
-            {
-              "label": "Geneva",
-              "value": "Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif"
-            },
-            {
-              "label": "Georgia",
-              "value": "Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif"
-            },
-            {
-              "label": "Helvetica",
-              "value": "Helvetica, Arial, sans-serif"
-            },
-            {
-              "label": "Helvetica Neue",
-              "value": "'Helvetica Neue', Arial, Helvetica, sans-serif"
-            },
-            {
-              "label": "Impact",
-              "value": "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"
-            },
-            {
-              "label": "Lucida Grande",
-              "value": "'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif"
-            },
-            {
-              "label": "Trebuchet MS",
-              "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"
             }
+
           ]
         }
       ]
