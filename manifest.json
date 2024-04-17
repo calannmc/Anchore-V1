@@ -1,7 +1,7 @@
 {
   "name": "Anchore Development Theme - v3",
   "author": "Zendesk",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -867,7 +867,7 @@
           "value": "https://www.zendesk.com"
         },
         {
-          "identifier": "footer_link_5_name",
+          "identifier": "footer_link_3_name",
           "type": "text",
           "description": "Name for footer link 5",
           "label": "Footer Link 5 Name",
@@ -1062,7 +1062,6 @@
           "label": "Footer 18 URL",
           "value": "https://www.zendesk.com"
         }
-      
       ]
     },
     {
@@ -1193,7 +1192,7 @@
               "label": "Poppins",
               "value": "'Poppins', sans-serif"
             }
-         ]
+          ]
         },
         {
           "identifier": "text_font",
