@@ -1,7 +1,7 @@
 {
-  "name": "Anchore Development Theme - v3",
+  "name": "Anchore Development Theme - v4",
   "author": "Zendesk",
-  "version": "1.6.4",
+  "version": "1.6.3",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -679,7 +679,6 @@
           "label": "Category 12 name",
           "value": "222XR"
         },
-
         {
           "identifier": "popular_articles_text",
           "type": "text",
@@ -813,7 +812,6 @@
         }
       ]
     },
-
     {
       "label": "Anchore - Footer",
       "variables": [
@@ -836,7 +834,7 @@
           "type": "text",
           "description": "URL for footer 1",
           "label": "Footer 1 URL",
-          "value": "https://www.zendesk.com"
+          "value": "https://anchore.com/blog/"
         },
         {
           "identifier": "footer_link_2_name",
@@ -850,7 +848,7 @@
           "type": "text",
           "description": "URL for footer 2",
           "label": "Footer 2 URL",
-          "value": "https://www.zendesk.com"
+          "value": "https://docs.anchore.com/current/?_gl=1*skzlm6*_ga*MjA5ODY0MDc4OS4xNzEyMzM0MTk3*_ga_MF139FGBSJ*MTcxMzM1OTM0Ni4xMC4xLjE3MTMzNTk0MDYuNjAuMC4w"
         },
         {
           "identifier": "footer_link_3_name",
@@ -864,7 +862,7 @@
           "type": "text",
           "description": "URL for footer 3",
           "label": "Footer 3 URL",
-          "value": "https://www.zendesk.com"
+          "value": "https://anchore.com/opensource/"
         },
         {
           "identifier": "footer_link_4_name",
@@ -878,9 +876,8 @@
           "type": "text",
           "description": "URL for footer 4",
           "label": "Footer 4 URL",
-          "value": "https://www.zendesk.com"
+          "value": "https://anchore.com/integrations/"
         },
-      
         {
           "identifier": "footer_link_5_name",
           "type": "text",
@@ -893,7 +890,7 @@
           "type": "text",
           "description": "URL for footer 5",
           "label": "Footer 5 URL",
-          "value": "https://www.zendesk.com"
+          "value": "https://anchore.com/partners/"
         },
         {
           "identifier": "footer_link_6_name",
@@ -907,7 +904,7 @@
           "type": "text",
           "description": "URL for footer 6",
           "label": "Footer 6 URL",
-          "value": "https://www.zendesk.com"
+          "value": "https://anchore.com/events/"
         },
         {
           "identifier": "footer_link_7_name",
@@ -921,7 +918,7 @@
           "type": "text",
           "description": "URL for footer 7",
           "label": "Footer 7 URL",
-          "value": "https://www.zendesk.com"
+          "value": "https://anchore.com/webinars/"
         },
         {
           "identifier": "footer_link_8_name",
@@ -935,21 +932,21 @@
           "type": "text",
           "description": "URL for footer 8",
           "label": "Footer 8 URL",
-          "value": "https://www.zendesk.com"
+          "value": "https://anchore.com/videos/"
         },
         {
           "identifier": "footer_link_9_name",
           "type": "text",
           "description": "Name for footer link 9",
           "label": "Footer Link 9 Name",
-          "value": "Videos"
+          "value": ""
         },
         {
           "identifier": "footer_9_url",
           "type": "text",
           "description": "URL for footer 9",
           "label": "Footer 9 URL",
-          "value": "https://www.zendesk.com"
+          "value": ""
         },
         {
           "identifier": "footer_column_2",
@@ -970,7 +967,7 @@
           "type": "text",
           "description": "URL for footer 10",
           "label": "Footer 10 URL",
-          "value": "https://www.zendesk.com"
+          "value": "https://anchore.com/compliance/"
         },
         {
           "identifier": "footer_link_11_name",
@@ -984,7 +981,7 @@
           "type": "text",
           "description": "URL for footer 11",
           "label": "Footer 11 URL",
-          "value": "https://www.zendesk.com"
+          "value": "https://anchore.com/devsecops/what-is-devsecops/"
         },
         {
           "identifier": "footer_link_12_name",
@@ -998,7 +995,7 @@
           "type": "text",
           "description": "URL for footer 12",
           "label": "Footer 12 URL",
-          "value": "https://www.zendesk.com"
+          "value": "https://anchore.com/sbom/what-is-an-sbom/"
         },
         {
           "identifier": "footer_link_13_name",
@@ -1012,7 +1009,7 @@
           "type": "text",
           "description": "URL for footer 13",
           "label": "Footer 13 URL",
-          "value": "https://www.zendesk.com"
+          "value": "https://anchore.com/devsecops/what-is-devsecops/"
         },
         {
           "identifier": "footer_link_14_name",
@@ -1026,7 +1023,7 @@
           "type": "text",
           "description": "URL for footer 14",
           "label": "Footer 14 URL",
-          "value": "https://www.zendesk.com"
+          "value": "https://anchore.com/software-supply-chain-security/what-is-sscs/"
         },
         {
           "identifier": "footer_column_3",
@@ -1047,7 +1044,7 @@
           "type": "text",
           "description": "URL for footer 15",
           "label": "Footer 15 URL",
-          "value": "https://www.zendesk.com"
+          "value": "https://anchore.com/about-us/"
         },
         {
           "identifier": "footer_link_16_name",
@@ -1061,20 +1058,34 @@
           "type": "text",
           "description": "URL for footer 16",
           "label": "Footer 16 URL",
-          "value": "https://www.zendesk.com"
+          "value": "https://get.anchore.com/become-a-partner/?_gl=1*1xiitj7*_ga*MjA5ODY0MDc4OS4xNzEyMzM0MTk3*_ga_MF139FGBSJ*MTcxMzM1OTM0Ni4xMC4xLjE3MTMzNjAzNTcuMTEuMC4w"
         },
         {
           "identifier": "footer_link_17_name",
           "type": "text",
           "description": "Name for footer link 17",
           "label": "Footer Link 17 Name",
-          "value": "Press"
+          "value": "Press & News"
         },
         {
           "identifier": "footer_17_url",
           "type": "text",
           "description": "URL for footer 17",
           "label": "Footer 17 URL",
+          "value": "https://anchore.com/newsroom/"
+        },
+        {
+          "identifier": "footer_link_18_name",
+          "type": "text",
+          "description": "Name for footer link 18",
+          "label": "Footer Link 18 Name",
+          "value": "News"
+        },
+        {
+          "identifier": "footer_18_url",
+          "type": "text",
+          "description": "URL for footer 18",
+          "label": "Footer 18 URL",
           "value": "https://www.zendesk.com"
         }
       ]
