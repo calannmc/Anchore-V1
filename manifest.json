@@ -1,7 +1,7 @@
 {
   "name": "Anchore Development Theme - v3",
   "author": "Zendesk",
-  "version": "1.5.6",
+  "version": "1.5.7",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -941,7 +941,7 @@
           "identifier": "footer_link_9_name",
           "type": "text",
           "description": "Name for footer link 9",
-          "label": "Footer Link 8 Name",
+          "label": "Footer Link 9 Name",
           "value": "Videos"
         },
         {
