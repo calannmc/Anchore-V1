@@ -1074,21 +1074,7 @@
           "identifier": "footer_17_url",
           "type": "text",
           "description": "URL for footer 17",
-          "label": "Footer 14 URL",
-          "value": "https://www.zendesk.com"
-        },
-        {
-          "identifier": "footer_link_18_name",
-          "type": "text",
-          "description": "Name for footer link 18",
-          "label": "Footer Link 18 Name",
-          "value": "News"
-        },
-        {
-          "identifier": "footer_18_url",
-          "type": "text",
-          "description": "URL for footer 18",
-          "label": "Footer 18 URL",
+          "label": "Footer 17 URL",
           "value": "https://www.zendesk.com"
         }
       ]
