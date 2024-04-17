@@ -1,7 +1,7 @@
 {
   "name": "Anchore Development Theme - v3",
   "author": "Zendesk",
-  "version": "1.4.9",
+  "version": "1.5",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -143,21 +143,8 @@
           "description": "URL for the header link",
           "label": "HEADER URL",
           "value": "#"
-        },
-        {
-          "identifier": "footer_one_title",
-          "type": "text",
-          "description": "Title for footer link",
-          "label": "F1 Title",
-          "value": "Docs"
-        },
-        {
-          "identifier": "footer_one",
-          "type": "text",
-          "description": "URL for the F1",
-          "label": "f1 URL",
-          "value": "https://docs.anchore.com/"
         }
+
       ]
     },
     
@@ -177,6 +164,25 @@
           "description": "news content",
           "label": "news_content",
           "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+        }
+      ]
+    },
+    {
+      "label": "Footer",
+      "variables": [
+        {
+          "identifier": "footer_one_title",
+          "type": "text",
+          "description": "Title for footer link",
+          "label": "F1 Title",
+          "value": "Docs"
+        },
+        {
+          "identifier": "footer_one",
+          "type": "text",
+          "description": "URL for the F1",
+          "label": "f1 URL",
+          "value": "https://docs.anchore.com/"
         }
       ]
     },
