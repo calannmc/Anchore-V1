@@ -148,13 +148,7 @@
     {
       "label": "Anchore - Footer",
       "variables": [
-        {
-          "identifier": "Footer_Column_1",
-          "type": "text",
-          "description": "Title for footer column one",
-          "label": "Footer Column 1",
-          "value": "Resources"
-        },
+   
         {
           "identifier": "Footer_link_1_Name",
           "type": "text",
@@ -376,7 +370,7 @@
           "identifier": "Footer_17_URL",
           "type": "text",
           "description": "URL for footer 17",
-          "label": "Footer 14 URL",
+          "label": "Footer 17 URL",
           "value": "https://www.zendesk.com"
         },
         {
