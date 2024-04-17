@@ -797,27 +797,6 @@
           "description": "Title for footer column one",
           "label": "Footer Column 1",
           "value": "Resources"
-        },
-        {
-          "identifier": "Footer_link_1_Name",
-          "type": "text",
-          "description": "Name for footer link 1",
-          "label": "Footer Link 1 Name",
-          "value": "Blog"
-        },
-        {
-          "identifier": "Footer_1_URL",
-          "type": "text",
-          "description": "URL for footer 1",
-          "label": "Footer 1 URL",
-          "value": "https://www.zendesk.com"
-        },
-        {
-          "identifier": "Footer_link_2_Name",
-          "type": "text",
-          "description": "Name for footer link 2",
-          "label": "Footer Link 2 Name",
-          "value": "Docs"
         }
       ]
     },
