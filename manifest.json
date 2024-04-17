@@ -856,8 +856,8 @@
           "identifier": "footer_link_3_name",
           "type": "text",
           "description": "Name for footer link 3",
-          "label": "Name for footer link 2",
-          "value": "Open Source"
+          "label": "Footer Link 3 Name",
+          "value": "Docs"
         },
         {
           "identifier": "footer_4_url",
