@@ -1,4 +1,5 @@
-<h2 id="footer-heading" class="sr-only">Footer</h2>
+<footer class="bg-gray-900" aria-labelledby="footer-heading">
+  <h2 id="footer-heading" class="sr-only">Footer</h2>
   <div class="mx-auto max-w-7xl px-6 py-16 sm:py-12 lg:px-8">
     <div class="xl:grid xl:grid-cols-3 xl:gap-8">
       <img class="h-7 mx-auto" src="{{settings.logo}}" alt="{{help_center.name}}">
@@ -93,6 +94,10 @@
               <li class="text-center md:text-left">
                 <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">{{settings.footer_link_17_name}}</a>
               </li> {{/if}}
+              {{#if settings.footer_link_18_name}}
+              <li class="text-center md:text-left">
+                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">{{settings.footer_link_18_name}}</a>
+              </li> {{/if}}
             </ul>
           </div>
           {{/if}}
@@ -117,32 +122,4 @@
       </div>
     </div>
   </div>
-    <!-- Additional wrapper link -->
-    <div class="wrapper-link text-center py-4">
-      <a href="http://example.com" class="text-white">Visit Our Corporate Site</a>
-    </div>
-
-    <!-- Footer bottom section -->
-    <div class="flex justify-between items-center border-t border-gray-700 pt-4">
-      <!-- Legal Wrapper on the left -->
-      <div class="legal-wrapper text-gray-300">
-        <a href="/terms" class="text-sm hover:text-white">Terms of Service</a> |
-        <a href="/privacy" class="text-sm hover:text-white">Privacy Policy</a> |
-        <span class="text-sm">&copy; 2024 Your Company Name. All rights reserved.</span>
-      </div>
-
-      <!-- Social Icons on the right -->
-      <div class="social-icons">
-        <a href="https://twitter.com/yourhandle" target="_blank" class="text-gray-300 hover:text-white">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="https://facebook.com/yourpage" target="_blank" class="text-gray-300 hover:text-white">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="https://linkedin.com/company/yourcompany" target="_blank" class="text-gray-300 hover:text-white">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </div>
-
-
 </footer>
