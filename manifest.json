@@ -792,11 +792,31 @@
       "label": "Anchore - Footer",
       "variables": [
         {
-          "identifier": "Footer_Column_1",
+          "identifier": "footer_logo",
+          "type": "file",
+          "description": "Logo for the footer",
+          "label": "Footer Logo"
+        },
+        {
+          "identifier": "footer_text",
           "type": "text",
-          "description": "Title for footer column one",
-          "label": "Footer Column 1",
-          "value": "Resources"
+          "description": "Text for the footer",
+          "label": "Footer Text",
+          "value": "© 2021 Anchore, Inc. All rights reserved."
+        },
+        {
+          "identifier": "footer_link",
+          "type": "text",
+          "description": "URL for the footer link",
+          "label": "Footer Link",
+          "value": "https://www.anchore.com/"
+        },
+        {
+          "identifier": "footer_link_text",
+          "type": "text",
+          "description": "Text for the footer link",
+          "label": "Footer Link Text",
+          "value": "Anchore.com"
         }
       ]
     },
