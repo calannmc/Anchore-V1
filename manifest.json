@@ -1,7 +1,7 @@
 {
   "name": "Anchore Development Theme - v3",
   "author": "Zendesk",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -852,7 +852,27 @@
           "label": "Footer 2 URL",
           "value": "https://www.zendesk.com"
         },
-
+        {
+          "identifier": "footer_link_3_name",
+          "type": "text",
+          "description": "Name for footer link 3",
+          "label": "Footer Link 3 Name",
+          "value": "Open Source"
+        },
+        {
+          "identifier": "footer_5_url",
+          "type": "text",
+          "description": "URL for footer 4",
+          "label": "Footer 4 URL",
+          "value": "https://www.zendesk.com"
+        },
+        {
+          "identifier": "footer_link_4_name",
+          "type": "text",
+          "description": "Name for footer link 3",
+          "label": "Footer Link 3 Name",
+          "value": "Integrations"
+        },
         {
           "identifier": "footer_4_url",
           "type": "text",
@@ -860,12 +880,13 @@
           "label": "Footer 4 URL",
           "value": "https://www.zendesk.com"
         },
+      
         {
-          "identifier": "footer_link_3_name",
+          "identifier": "footer_link_5_name",
           "type": "text",
           "description": "Name for footer link 5",
           "label": "Footer Link 5 Name",
-          "value": "Integrations"
+          "value": "Partners"
         },
         {
           "identifier": "footer_5_url",
@@ -879,7 +900,7 @@
           "type": "text",
           "description": "Name for footer link 6",
           "label": "Footer Link 6 Name",
-          "value": "Partners"
+          "value": "Events"
         },
         {
           "identifier": "footer_6_url",
@@ -893,7 +914,7 @@
           "type": "text",
           "description": "Name for footer link 7",
           "label": "Footer Link 7 Name",
-          "value": "Events"
+          "value": "Webinars"
         },
         {
           "identifier": "footer_7_url",
@@ -907,7 +928,7 @@
           "type": "text",
           "description": "Name for footer link 8",
           "label": "Footer Link 8 Name",
-          "value": "Webinars"
+          "value": "Videos"
         },
         {
           "identifier": "footer_8_url",
