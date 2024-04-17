@@ -1,7 +1,7 @@
 {
   "name": "Anchore Development Theme - v3",
   "author": "Zendesk",
-  "version": "1.5.7",
+  "version": "1.5.8",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -992,6 +992,13 @@
           "description": "Name for footer link 12",
           "label": "Footer Link 12 Name",
           "value": "SBOM"
+        },
+        {
+          "identifier": "footer_12_url",
+          "type": "text",
+          "description": "URL for footer 12",
+          "label": "Footer 12 URL",
+          "value": "https://www.zendesk.com"
         },
         {
           "identifier": "footer_link_13_name",
