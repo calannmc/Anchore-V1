@@ -994,6 +994,13 @@
           "value": "SBOM"
         },
         {
+          "identifier": "footer_link_13_name",
+          "type": "text",
+          "description": "Name for footer link 11",
+          "label": "Footer Link 13 Name",
+          "value": "DevSecOps"
+        },
+        {
           "identifier": "footer_13_url",
           "type": "text",
           "description": "URL for footer 13",
