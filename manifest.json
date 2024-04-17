@@ -852,13 +852,7 @@
           "label": "Footer 2 URL",
           "value": "https://www.zendesk.com"
         },
-        {
-          "identifier": "footer_link_3_name",
-          "type": "text",
-          "description": "Name for footer link 3",
-          "label": "Footer Link 3 Name",
-          "value": "Docs"
-        },
+
         {
           "identifier": "footer_4_url",
           "type": "text",
