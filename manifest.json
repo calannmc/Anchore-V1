@@ -1,5 +1,5 @@
 {
-  "name": "Anchore Development Theme - v4",
+  "name": "Anchore Development Theme - FINAL",
   "author": "Zendesk",
   "version": "1.8.5",
   "api_version": 3,
@@ -37,7 +37,7 @@
           "type": "text",
           "description": "Description for the homepage hero banner",
           "label": "Hero Banner Description",
-          "value": "Description for the homepage hero banner"
+          "value": "Search for Anchore content in the box below"
         },
         {
           "identifier": "hero_banner_image",
@@ -50,42 +50,42 @@
           "type": "text",
           "description": "Title for CTA1",
           "label": "CTA1 Title",
-          "value": "Docs"
+          "value": "Open a Ticket"
         },
         {
           "identifier": "cta_one",
           "type": "text",
           "description": "URL for the CTA",
           "label": "CTA1 URL",
-          "value": "https://docs.anchore.com/"
+          "value": "https://support.anchore.com/hc/en-us/requests/new"
         },
         {
           "identifier": "cta_two_title",
           "type": "text",
           "description": "Title for CTA2",
           "label": "CTA2 Title",
-          "value": "CTA Title"
+          "value": ""
         },
         {
           "identifier": "cta_two",
           "type": "text",
           "description": "URL for the CTA",
           "label": "CTA2 URL",
-          "value": "CTA2 URL"
+          "value": ""
         },
         {
           "identifier": "header_one_title",
           "type": "text",
           "description": "Title for header link",
           "label": "Header Title",
-          "value": "Header 3"
+          "value": ""
         },
         {
           "identifier": "header_one",
           "type": "text",
           "description": "URL for the header link",
           "label": "HEADER URL",
-          "value": "#"
+          "value": ""
         },
         {
           "identifier": "header_two_title",
@@ -113,35 +113,35 @@
           "type": "text",
           "description": "URL for the header link",
           "label": "HEADER URL",
-          "value": "#"
+          "value": ""
         },
         {
           "identifier": "header_four_title",
           "type": "text",
           "description": "Title for header link",
           "label": "Header Title",
-          "value": "Header 4"
+          "value": ""
         },
         {
           "identifier": "header_four",
           "type": "text",
           "description": "URL for the header link",
           "label": "HEADER URL",
-          "value": "#"
+          "value": ""
         },
         {
           "identifier": "header_five_title",
           "type": "text",
           "description": "Title for header link",
           "label": "Header Title",
-          "value": "Header 5"
+          "value": ""
         },
         {
           "identifier": "header_five",
           "type": "text",
           "description": "URL for the header link",
           "label": "HEADER URL",
-          "value": "#"
+          "value": ""
         }
       ]
     },
@@ -153,14 +153,14 @@
           "type": "text",
           "description": "Title for news",
           "label": "news_title",
-          "value": "News"
+          "value": "Latest News"
         },
         {
           "identifier": "news_content",
           "type": "text",
           "description": "news content",
           "label": "news_content",
-          "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+          "value": "Anchore Enterprise v5.4.1 is released! "
         }
       ]
     },
@@ -178,21 +178,21 @@
           "type": "text",
           "description": "Title for video tile",
           "label": "Video Tile Title",
-          "value": "Watch Now"
+          "value": "Anchore Videos"
         },
         {
           "identifier": "video_tile_description",
           "type": "text",
           "description": "Description for the video tile",
           "label": "Video Tile Description",
-          "value": "Description"
+          "value": "Recordings from prior Anchore webinars on best practice and implementation"
         },
         {
           "identifier": "video_tile_url",
           "type": "text",
           "description": "URL for the video tile",
           "label": "Video Tile URL",
-          "value": "https://player.vimeo.com/video/506724741?h=90455481d9&color=307FE2&title=0&byline=0&portrait=0"
+          "value": "https://vimeo.com/anchore"
         },
         {
           "identifier": "tile_1",
@@ -205,21 +205,21 @@
           "type": "text",
           "description": "Title for the first tile",
           "label": "Tile 1 Title",
-          "value": "Tile 1"
+          "value": "Support Lifecycle"
         },
         {
           "identifier": "tile_1_description",
           "type": "text",
           "description": "Description for the first tile",
           "label": "Tile 1 Description",
-          "value": "Description for the first tile"
+          "value": "Support lifecycle information for Anchore Enterprise releases. "
         },
         {
           "identifier": "tile_1_url",
           "type": "text",
           "description": "URL for the first tile",
           "label": "Tile 1 URL",
-          "value": "https://www.zendesk.com"
+          "value": "https://support.anchore.com/hc/en-us/articles/28208861979923-Anchore-Enterprise-Support-Lifecycle"
         },
         {
           "identifier": "tile_2",
@@ -232,21 +232,21 @@
           "type": "text",
           "description": "Title for the second tile",
           "label": "Tile 2 Title",
-          "value": "Tile 2"
+          "value": "Release Notes"
         },
         {
           "identifier": "tile_2_description",
           "type": "text",
           "description": "Description for the second tile",
           "label": "Tile 2 Description",
-          "value": "Description for the second tile"
+          "value": "Release Notes containing new features and resolved issues for all Anchore Enterprise versions"
         },
         {
           "identifier": "tile_2_url",
           "type": "text",
           "description": "URL for the second tile",
           "label": "Tile 2 URL",
-          "value": "https://www.zendesk.com"
+          "value": "https://docs.anchore.com/current/docs/releasenotes/"
         },
         {
           "identifier": "tile_3",
@@ -259,21 +259,21 @@
           "type": "text",
           "description": "Title for the third tile",
           "label": "Tile 3 Title",
-          "value": "Tile 3"
+          "value": "Licensing"
         },
         {
           "identifier": "tile_3_description",
           "type": "text",
           "description": "Description for the third tile",
           "label": "Tile 3 Description",
-          "value": "Description for the third tile"
+          "value": "Information regarding your Anchore Enterprise license"
         },
         {
           "identifier": "tile_3_url",
           "type": "text",
           "description": "URL for the third tile",
           "label": "Tile 3 URL",
-          "value": "https://www.zendesk.com"
+          "value": "https://support.anchore.com/hc/en-us/categories/27405136587667-Licensing-Billing"
         },
         {
           "identifier": "tile_4",
@@ -286,21 +286,21 @@
           "type": "text",
           "description": "Title for the fourth tile",
           "label": "Tile 4 Title",
-          "value": "Tile 4"
+          "value": "v2 API Browser"
         },
         {
           "identifier": "tile_4_description",
           "type": "text",
           "description": "Description for the fourth tile",
           "label": "Tile 4 Description",
-          "value": "Description for the fourth tile"
+          "value": "Browse the Anchore V2 API"
         },
         {
           "identifier": "tile_4_url",
           "type": "text",
           "description": "URL for the fourth tile",
           "label": "Tile 4 URL",
-          "value": "https://www.zendesk.com"
+          "value": "https://docs.anchore.com/current/docs/api/v2/reference/"
         },
         {
           "identifier": "tile_5",
@@ -313,21 +313,21 @@
           "type": "text",
           "description": "Title for the fifth tile",
           "label": "Tile 5 Title",
-          "value": "Tile 5"
+          "value": "Anchore Documentation"
         },
         {
           "identifier": "tile_5_description",
           "type": "text",
           "description": "Description for the fifth tile",
           "label": "Tile 5 Description",
-          "value": "Description for the fifth tile"
+          "value": "Version specific documentation for Anchore Enterprise releases"
         },
         {
           "identifier": "tile_5_url",
           "type": "text",
           "description": "URL for the fifth tile",
           "label": "Tile 5 URL",
-          "value": "https://www.zendesk.com"
+          "value": "https://docs.anchore.com/current/docs/"
         },
         {
           "identifier": "tile_6",
@@ -340,21 +340,21 @@
           "type": "text",
           "description": "Title for the sixth tile",
           "label": "Tile 6 Title",
-          "value": "Tile 6"
+          "value": "Feed Health"
         },
         {
           "identifier": "tile_6_description",
           "type": "text",
           "description": "Description for the sixth tile",
           "label": "Tile 6 Description",
-          "value": "Description for the sixth tile"
+          "value": "Validate vulnerability feed health for your Anchore Enterprise deployment"
         },
         {
           "identifier": "tile_6_url",
           "type": "text",
           "description": "URL for the sixth tile",
           "label": "Tile 6 URL",
-          "value": "https://www.zendesk.com"
+          "value": "https://docs.anchore.com/current/docs/troubleshooting/#verifying-feeds"
         },
         {
           "identifier": "tile_7",
@@ -367,21 +367,21 @@
           "type": "text",
           "description": "Title for the seventh tile",
           "label": "Tile 7 Title",
-          "value": "Tile 7"
+          "value": "Integrations"
         },
         {
           "identifier": "tile_7_description",
           "type": "text",
           "description": "Description for the seventh tile",
           "label": "Tile 7 Description",
-          "value": "Description for the seventh tile"
+          "value": "Learn about common Anchore Enterprise integrations"
         },
         {
           "identifier": "tile_7_url",
           "type": "text",
           "description": "URL for the seventh tile",
           "label": "Tile 7 URL",
-          "value": "https://www.zendesk.com"
+          "value": "https://docs.anchore.com/current/docs/integration/"
         },
         {
           "identifier": "tile_8",
@@ -1002,28 +1002,28 @@
           "type": "text",
           "description": "Name for footer link 11",
           "label": "Footer Link 13 Name",
-          "value": "DevSecOps"
+          "value": "Software Supply Chain Security"
         },
         {
           "identifier": "footer_13_url",
           "type": "text",
           "description": "URL for footer 13",
           "label": "Footer 13 URL",
-          "value": "https://anchore.com/devsecops/what-is-devsecops/"
+          "value": "https://anchore.com/software-supply-chain-security/what-is-sscs/"
         },
         {
           "identifier": "footer_link_14_name",
           "type": "text",
           "description": "Name for footer link 14",
           "label": "Footer Link 14 Name",
-          "value": "Software Supply Chain Security"
+          "value": ""
         },
         {
           "identifier": "footer_14_url",
           "type": "text",
           "description": "URL for footer 14",
           "label": "Footer 14 URL",
-          "value": "https://anchore.com/software-supply-chain-security/what-is-sscs/"
+          "value": ""
         },
         {
           "identifier": "footer_column_3",
@@ -1065,28 +1065,28 @@
           "type": "text",
           "description": "Name for footer link 17",
           "label": "Footer Link 17 Name",
-          "value": "Press & News"
+          "value": "Careers"
         },
         {
           "identifier": "footer_17_url",
           "type": "text",
           "description": "URL for footer 17",
           "label": "Footer 17 URL",
-          "value": "https://anchore.com/newsroom/"
+          "value": "https://anchore.com/careers/"
         },
         {
           "identifier": "footer_link_18_name",
           "type": "text",
           "description": "Name for footer link 18",
           "label": "Footer Link 18 Name",
-          "value": "News"
+          "value": "Press & News"
         },
         {
           "identifier": "footer_18_url",
           "type": "text",
           "description": "URL for footer 18",
           "label": "Footer 18 URL",
-          "value": "https://www.zendesk.com"
+          "value": "https://anchore.com/newsroom/"
         }
       ]
     },
