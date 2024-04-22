@@ -328,10 +328,10 @@
   {{/if}}
 </section>
 
-
+{{#if settings.custom_tile_title}}
 
 <section class="pb-5 sm:pb-10 bg-no-repeat bg-origin-padding bg-brand-grey">
-   <h2 class="section-header text-center mb-4 pt-8">Custom Tiles</h2>
+   <h2 class="section-header text-center mb-4 pt-8">{{settings.custom_tile_title}}</h2>
   <div class="container mx-auto text-center category-cards py-8 px-3 sm:py-10">
    
     <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-8 px-5">
@@ -501,11 +501,13 @@
     </div>
   </div>
 </section>
+{{/if}}
 
-<!--NB card styling-->
+<!--Category card styling-->
+{{#if settings.category_tiles_title}}
 <section class="pb-5 sm:pb-10 bg-no-repeat bg-origin-padding	bg-white">
   <div class="container mx-auto text-center category-cards py-8 px-3 sm:py-10">
-    <h2 class="section-header text-center mb-4">Category Cards</h2>
+    <h2 class="section-header text-center mb-4">{{settings.category_tiles_title}}</h2>
     <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-8 px-5 bg-white">
       {{#each categories}}
         <a href="{{url}}" class="leading-6 card-link transform transition duration-300 ease-in-out bg-transparent  px-4 py-4 shadow-sm hover:bg-white hover:scale-105 hover:shadow-lg hover:border-transparent hover:shadow-outline hover:font-semibold hover:text-black next-card-title rounded-lg">
@@ -554,6 +556,7 @@
           <p class="text-base card-text-description line-clamp-2">{{this.description}}</p>
     </a>
   {{/each}}
+  {{/if}}
 
   </div>
 </section>
