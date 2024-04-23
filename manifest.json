@@ -1,7 +1,7 @@
 {
-  "name": "Anchore Development Theme - FINAL",
+  "name": "Anchore Development Theme - v6",
   "author": "Zendesk",
-  "version": "1.8.6",
+  "version": "1.0.0",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -156,6 +156,13 @@
           "value": "Latest News"
         },
         {
+          "identifier": "news_url",
+          "type": "text",
+          "description": "URL for news",
+          "label": "News URL",
+          "value": "https://docs.anchore.com/current/docs/releasenotes/540/"
+        },
+        {
           "identifier": "news_content",
           "type": "text",
           "description": "news content",
@@ -170,7 +177,7 @@
         {
           "identifier": "custom_tile_title",
           "type": "text",
-          "description": "Title for vcustom tiles ",
+          "description": "Title for custom tiles ",
           "label": "Custom Tiles Title",
           "value": "Custom Tiles"
         },
@@ -592,7 +599,7 @@
           "description": "Icon for the eighth category card",
           "label": "Card_Icon_8"
         },
-
+   
         {
           "identifier": "category_card_icon_9",
           "type": "file",
@@ -620,7 +627,7 @@
           "description": "Icon for the 12 category card",
           "label": "Card_Icon_12"
         },
-
+ 
         {
           "identifier": "popular_articles_text",
           "type": "text",
