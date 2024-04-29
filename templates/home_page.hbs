@@ -311,7 +311,7 @@
         <a href="{{settings.news_url}}" class="block hover:bg-gray-100 transition duration-300 ease-in-out">
           <span class="absolute top-0 left-0 transform -translate-x-1/2 -translate-y-1/2 flex h-6 w-6">
             <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-{{settings.brand_color}} opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-6 w-6 bg-red"></span>
+            <span class="relative inline-flex rounded-full h-6 w-6 bg-{{settings.brand_color_slategrey}}"></span>
           </span>
           <h2 class="section-header text-center mb-4 pt-8">{{settings.news_title}}</h2>
           <div class="mt-8 px-4 py-6">
@@ -501,7 +501,7 @@
 
 <!--Category card styling-->
 {{#if settings.category_tiles_title}}
-<section class="pb-5 sm:pb-10 bg-no-repeat bg-origin-padding	bg-white">
+<section class="pb-5 sm:pb-10 bg-no-repeat bg-origin-padding	bg-red">
   <div class="container mx-auto text-center category-cards py-8 px-3 sm:py-10">
 <h2 class="section-header text-center mb-4">{{settings.category_tiles_title}}</h2>
     <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-8 px-5 bg-white">
